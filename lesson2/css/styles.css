@@ -547,8 +547,8 @@ pre code {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 5.75rem;
+  padding-left: -0.25rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -10118,7 +10118,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fec503;
+  color: #19774c;
   background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
