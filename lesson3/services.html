@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игорь Щен</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+</head>
+<body class="d-flex flex-column h-100">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Cайт Насти Завражновой</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="./index.html">Главная <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./services.html">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./profile.html">Портфолио</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Контакты</a>
+            </li>
+      </ul>
+    </div>
+  </nav>
+      <hr/>
+      <main role="main" class="flex-shrink-0">
+        <div class="container">
+ <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center"><h2 class="section-heading text-uppercase">Услуги</h2></div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-school fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3" data-toggle="modal" data-target="#serviceModal1">подготовка ребёнка к школе</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop-house fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3" data-toggle="modal" data-target="#serviceModal2">помощь в домашнем задании</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-child fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3" data-toggle="modal" data-target="#serviceModal3">репетитор всех школьных предметов до 4 класса включительно</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section mt-2" id="statistic">
+          <div class="container">
+              <div class="text-center"><h2 class="section-heading text-uppercase">Статистика по услугам</h2></div>
+              <div class="row text-center">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Услуга</th>
+                      <th scope="col">Дети до 7 лет</th>
+                      <th scope="col">Дети от 7 до 14 лет</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">подготовка ребёнка к школе</th>
+                      <td>Актуально</td>
+                      <td>Не актуально</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">помощь в домашнем задании</th>
+                      <td>Не актуально</td>
+                      <td>Актуально</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">репетитор всех школьных предметов до 4 класса включительно</th>
+                      <td>Не актуально</td>
+                      <td>Актуально</td>
+                  </tbody>
+                </table>
+              </div>
+          </div>
+      </section>
+      </main>
+      <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="copyright-text">©&nbsp;Все права защищены</div>
+        </div>
+      </footer>
+
+      <!-- Modal 1-->
+      <div class="portfolio-modal modal fade" id="serviceModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-uppercase" id="exampleModalLongTitle">подготовка ребёнка к школе</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+                <div class="modal-body">
+                    <!-- Project Details Go Here-->
+                    <img class="img-fluid d-block mx-auto" src="assets/img/services/photo1.jpg" alt="" />
+                    <p>Научу Вашего ребёнка читать, писать, считать. Так же Ваш ребёнок получит достаточные знания по окружающему миру до 1 класса. Будет выполнять различные поделки и развивать мелкую моторику рук, внимание и память.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="portfolio-modal modal fade" id="serviceModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-uppercase" id="exampleModalLongTitle">помощь в домашнем задании</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+                <div class="modal-body">
+                    <!-- Project Details Go Here-->
+                    <img class="img-fluid d-block mx-auto" src="assets/img/services/photo2.jpg" alt="" />
+                    <p>Помогу Вашему ребёнку в выполнений домашнего задания любого школьного предмета (кроме английского языка). Объясню тот материал, который ребёнок не понимает, доступный и попятным языком и проработаю на практике. Так же можем пойти дальше по школьной программе, если у ребёнка нет никаких проблем в усвоении материала.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="portfolio-modal modal fade" id="serviceModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title text-uppercase" id="exampleModalLongTitle">репетитор всех школьных предметов до 4 класса включительно</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <img class="img-fluid d-block mx-auto" src="assets/img/services/photo3.jpg" alt="" />
+                                <p>Помогу Вашему ребёнку в учебе, подтяну его отметки по всем предметам с помощью индивидуальных методик и доступного объяснения.</p>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
